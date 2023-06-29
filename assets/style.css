@@ -6,25 +6,63 @@
 
 body {
     background-color: #fffffe;
-    /* font-family: ; uguale sia a p che h1*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* rivedi font-family */
 }
 
 #container {
-    border: 1px solid black;  /* da togliere */
+    border: 10px solid red;  /* da togliere */
     width: 70%;
     height: auto;
     margin: 0 auto;
+}
+
+header {
     text-align: center;
 }
 
 h1 {
     padding-top: 30px;
     color: #e53170;
-    /* font-size: ; */
+    font-size: 40px; /* rivedi font-size */
 }
 
 p {
     padding: 40px 0;
     color: black;
-    /* font-size: ; */
+    font-size: 16px; /* rivedi font-size */
 }
+
+.col {
+    border: 1px solid black;
+    width: calc(100% / 3 );
+    /* width: 300px; */
+    height: auto;
+    background-color: #0f0e17;
+    float: left;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.information {
+    color: white;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0690d4;
+}
+
+
+
