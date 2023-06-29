@@ -4,3 +4,27 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fffffe;
+    /* font-family: ; uguale sia a p che h1*/
+}
+
+#container {
+    border: 1px solid black;  /* da togliere */
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    color: #e53170;
+    /* font-size: ; */
+}
+
+p {
+    padding: 40px 0;
+    color: black;
+    /* font-size: ; */
+}
