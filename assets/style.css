@@ -6,11 +6,10 @@
 
 body {
     background-color: #fffffe;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* rivedi font-family */
+    font-family: 'Fredoka', sans-serif;
 }
 
 #container {
-    border: 1px solid red;  /* da togliere */
     width: 80%;
     height: auto;
     margin: 0 auto;
@@ -23,23 +22,23 @@ header {
 h1 {
     padding-top: 30px;
     color: #e53170;
-    font-size: 40px; /* rivedi font-size */
+    font-size: 40px; 
 }
 
 p {
     padding: 40px 0;
     color: black;
-    font-size: 16px; /* rivedi font-size */
+    font-size: 16px; 
 }
 
 .col {
     border: 1px solid black;
-    width: calc(100% / 3);
-    /* width: 350px; */
+    width: calc(100% / 3 - 16px);
     height: auto;
     background-color: #0f0e17;
     float: left;  
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 1px 1px 5px 1px black;
+    margin: 8px;
 }
 
 img {
@@ -79,11 +78,7 @@ div.second_row {
     margin-top: 50px;
 }
 
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 
 
